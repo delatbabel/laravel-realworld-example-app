@@ -1,0 +1,9 @@
+apps:
+  - name: realworld-laravel
+    script: artisan
+    exec_mode: fork
+    interpreter: php
+    instances: 1
+    args:
+      - serve
+      - --host=0.0.0.0
